@@ -1,0 +1,39 @@
+.currency, .currencies{
+  padding : 0px;
+  display: inline-block;
+  float:left;
+}
+
+.currencies{
+  background-color:black;
+
+  li{
+    height: 50px;
+    list-style: none;
+    width: 100%;
+
+    a{
+      text-decoration: none;
+      padding: 15px;
+      display: block;
+      width: 100%;
+      height: 100%;
+      color:white;
+
+      .fa{
+        margin-right: 5px;
+      }
+
+      &:hover, &.active{
+        color:black;
+        background-color:white;
+      }
+    }
+  }
+}
+
+.currency{
+    h1, .row{
+      margin-left: 20px;
+    }
+}
